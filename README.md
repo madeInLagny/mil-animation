@@ -1,20 +1,3 @@
-Importer le module animation et le module de transition souhaité
-
-import { animated } from "../../mil/milv3/mil-animation/animated";
-import { fadeInDown } from "../../mil/milv3/mil-animation/fadeInDown";
-
-Ajouter les modules au style
-
-    static get styles() {
-      return [
-        animated,
-        fadeInDown
-            ]}
-
-Ajouter les classes à l'élément
-
-    <h2 class="animated-1 delay-05 fadeInDown">Welcome</h2>
-
 # \<mil-animation\>
 
 'mil-animation' is a suite of css animation files that are compatible with webcomponent and litElement.
