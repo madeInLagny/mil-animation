@@ -18,6 +18,10 @@ export const animated = css`
     animation-duration: 3s;
   }
 
+  .animated-4 {
+    animation-duration: 4s;
+  }
+
   .delay-05 {
     animation-delay: 0.5s;
   }
@@ -33,15 +37,8 @@ export const animated = css`
   .delay-3 {
     animation-delay: 3s;
   }
-`;
 
-/* 
-        
-        animation-duration: 4s; or: Xms
-        animation-iteration-count: 10;
-        animation-direction: alternate; or: normal 
-        animation-timing-function: ease-out; or: ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2)
-        animation-fill-mode: forwards; or: backwards, both, none
-        animation-delay: 2s; or: Xms 
-        
-        */
+  .delay-4 {
+    animation-delay: 4s;
+  }
+`;

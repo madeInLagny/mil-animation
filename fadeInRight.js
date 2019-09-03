@@ -1,4 +1,3 @@
-/* v3.0 */
 import { css } from "lit-element";
 
 export const fadeInRight = css`

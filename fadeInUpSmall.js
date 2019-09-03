@@ -1,5 +1,3 @@
-/* v3.0 */
-
 /* This animation has 3 options : (10% : default), 20% or 30% */
 
 import { css } from "lit-element";
