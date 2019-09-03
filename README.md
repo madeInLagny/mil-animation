@@ -46,6 +46,14 @@ static get styles() {
 <h2 class="animated-1 fadeInDownSmall30">This element will fadeInDownSmall by 30%</h2>
 ```
 
+'.animated' and '.delay' have 5 options: -05, -01, -02, -03, -04.
+```js
+<h2 class="animated-05 fadeInDownSmall">This element will fadeInDownSmall in 0.5 seconds</h2>
+
+<h2 class="animated-02 delay-04 fadeInDownSmall">This element will fadeInDownSmall in 2 seconds after a 4 seconds delay</h2>
+```
+
+
 ### Todo
 * Add more animations.
 * Add host classes to use inside webcomponents.
