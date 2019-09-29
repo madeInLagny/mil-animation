@@ -12,7 +12,7 @@
     "url": "git://github.com/madeInLagny/mil-animation.git"
   },
   "homepage": "https://github.com/madeInLagny/mil-animation",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "css animation for webcomponents and lit-element",
   "main": "mil-animation.js",
   "dependencies": {
